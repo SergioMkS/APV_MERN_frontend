@@ -14,7 +14,7 @@ const Paciente = ({paciente}) => {
 
   return (
     <>
-        <div className="sm:w-full md:w-11/12 mx-10 my-10 bg-white shadow-md px-5 py-10 rounded-xl">
+        <div className=" mx-10 my-10 bg-white shadow-md px-5 py-10 rounded-xl w-full">
             <p className="font-bold uppercase text-indigo-700 my-2">Nombre: {''}
                 <span className="font-normal normal-case text-black">{nombre}</span>
             </p>
